@@ -1,4 +1,5 @@
 {
+  "homepage": "http://abojones.github.io/cards-list",
   "name": "moonpig-cards",
   "version": "0.1.0",
   "private": true,
@@ -73,6 +74,8 @@
     "workbox-webpack-plugin": "4.3.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
@@ -95,6 +98,7 @@
   "devDependencies": {
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
+    "gh-pages": "^2.2.0",
     "jest-enzyme": "^7.1.2"
   },
   "jest": {
@@ -151,7 +155,14 @@
     "env": {
       "production": {
         "plugins": [
-          ["react-remove-properties", {"properties": ["data-test-id"]}]
+          [
+            "react-remove-properties",
+            {
+              "properties": [
+                "data-test-id"
+              ]
+            }
+          ]
         ]
       }
     },
