@@ -1,3 +1,6 @@
+# CardsList
+I wrote some premliminary tests but didn't have the time to follow through and complete them. Ideally I would have been more comprehensive and tested each component for their key functions.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
