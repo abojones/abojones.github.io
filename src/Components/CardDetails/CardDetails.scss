@@ -1,0 +1,21 @@
+.card-details {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+.card-details__img-container {
+  width: 100%;
+  img {
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: rgba(0, 32, 77, 0.15) 0px 3px 8px 0px;
+    @media screen and (min-width: 400px) {
+      width: 70%;
+    }
+  }
+  @media screen and (min-width: 400px) {
+    width: 50%;
+  }
+}
