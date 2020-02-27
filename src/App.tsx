@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import './App.scss';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
-  Route,
-  // Link
+  Route
 } from "react-router-dom";
 import CardList from "./Components/CardList/CardList";
 import CardDetails from "./Components/CardDetails/CardDetails";
