@@ -1,0 +1,46 @@
+.size-picker {
+  width: 100%;
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  @media screen and (min-width: 400px) {
+    width: 50%;
+  }
+}
+.size-picker_option {
+  border: 1px solid black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  transition: all 200ms ease-in-out 0s;
+  &:hover {
+    box-shadow:rgba(0, 32, 77, 0.15) 0px 1px 4px 0px;
+    cursor: pointer;
+  }
+  &.size-picker_option--checked {
+    border: 2px solid red;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+.size-picker_buy-button {
+  background-color: rgb(255, 166, 182);
+  border: none;
+  transition: background-color 150ms linear 0s, box-shadow 150ms linear 0s;
+  width: 165px;
+  height: 40px;
+  border-radius: 12px;
+
+  &:hover {
+    background-color: rgb(255, 198, 209);
+    box-shadow: rgba(0, 32, 77, 0.15) 0px 8px 18px 0px;
+  }
+}

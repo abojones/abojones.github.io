@@ -1,0 +1,19 @@
+.card-tile {
+  width: 50%;
+  padding: 20px;
+  @media screen and (min-width: 400px) {
+    width: 25%;
+  }
+}
+.card-tile_img {
+  width: 100%;
+  box-shadow: rgba(0, 32, 77, 0.15) 0px 3px 8px 0px;
+  transition: all 200ms ease-in-out 0s;
+  transform: translateY(0px);
+
+  &:hover {
+    box-shadow: rgba(0, 32, 77, 0.15) 0px 11px 22px 0px;
+    transform: translateY(-4px);
+    cursor: pointer;
+  }
+}
