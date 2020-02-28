@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import SizePicker from "./SizePicker/SizePicker"
 import {ProductDetail, Size} from "../../common/models";
-import "./CardDetails.scss";
 import {http} from "../../common/api";
 
 export default class CardDetails extends Component<Props, State> {

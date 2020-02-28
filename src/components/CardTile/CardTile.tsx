@@ -1,5 +1,4 @@
 import React from 'react';
-import "./CardTile.scss"
 import {NavLink} from "react-router-dom"
 
 const CardTile = (props: Props) => {

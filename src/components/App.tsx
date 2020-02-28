@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './App.scss';
+
 import {
   HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
-import CardList from "./Components/CardList/CardList";
-import CardDetails from "./Components/CardDetails/CardDetails";
+import CardList from "./CardList/CardList";
+import CardDetails from "./CardDetails/CardDetails";
 
 class App extends Component {
   render() {

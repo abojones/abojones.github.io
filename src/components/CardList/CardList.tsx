@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import CardTile from "../CardTile/CardTile";
-import "./CardList.scss"
 import {
   Search,
   Product
