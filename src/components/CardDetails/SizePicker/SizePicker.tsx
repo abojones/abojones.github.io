@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import {Size} from "../../../common/models";
-import "./SizePicker.scss"
 
 export default class SizePicker extends Component<Props, State> {
   constructor(props: Props) {

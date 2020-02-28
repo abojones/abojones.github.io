@@ -11,11 +11,11 @@
     width: 100%;
     margin: 0 auto;
     box-shadow: rgba(0, 32, 77, 0.15) 0px 3px 8px 0px;
-    @media screen and (min-width: 500px) {
+    @media #{$tablet-up} {
       width: 70%;
     }
   }
-  @media screen and (min-width: 500px) {
+  @media #{$tablet-up} {
     width: 50%;
   }
 }
